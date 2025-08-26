@@ -5,8 +5,8 @@ import { NavBar } from './NavBar'
 
 function Header() {
   return (
-    <header className="flex place-content-between items-center mb-8">
-      <img src={logo} alt="logo" />
+    <header className="flex place-content-between items-center mb-14">
+      <img className='cursor-pointer' src={logo} alt="logo" />
       <NavBar/>
       
     </header>
@@ -14,3 +14,4 @@ function Header() {
 }
 
 export default Header
+

@@ -2,7 +2,7 @@ import { NewArticle } from "./NewArticle";
 
 export const NewContainer = () => {
   return (
-    <aside className="bg-very-dark-blue text-off-white py[28px] px-[20px]">
+    <aside className="bg-very-dark-blue text-off-white py[28px] px-[20px] flex-none mb-[60px] md:w-[350px] md:mb-0">
       <h1 className="text-soft-orange text-4xl font-bold">New</h1>
       <NewArticle
         title="Hydrogen VS Electric Cars"
